@@ -1,4 +1,4 @@
-# Laravel 9 將時間切割的後設資料附加到 Eloquent 模型
+# Laravel 10 將時間切割的後設資料附加到 Eloquent 模型
 
 引入 kolossal-io 的 laravel-multiplex 套件來擴增將時間切割的後設資料附加到 Eloquent 模型，後設資料就是用來詮釋資料屬性的資訊，有助於標出資訊儲存的位置、文件紀錄、尋找資源、相關評價和過濾資訊。
 

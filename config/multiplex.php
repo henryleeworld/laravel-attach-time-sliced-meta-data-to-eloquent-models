@@ -14,15 +14,6 @@ return [
     'migrations' => true,
 
     /**
-     * When storing models having the `HasMeta` trait you may define that all meta
-     * should be saved with a specific publication date. To do that pass a date castable
-     * value to an attribute named as configured here (`meta_publish_at` by default).
-     *
-     * Set this to a falsy value to disable this feature.
-     */
-    'publish_date_key' => 'meta_publish_at',
-
-    /**
      * List of handlers for recognized data types.
      *
      * Handlers will be evaluated in order, so a value will be handled
@@ -39,6 +30,7 @@ return [
         Kolossal\Multiplex\DataType\FloatHandler::class,
         Kolossal\Multiplex\DataType\StringHandler::class,
         Kolossal\Multiplex\DataType\DateTimeHandler::class,
+        Kolossal\Multiplex\DataType\DateHandler::class,
         Kolossal\Multiplex\DataType\ArrayHandler::class,
         Kolossal\Multiplex\DataType\ModelHandler::class,
         Kolossal\Multiplex\DataType\ModelCollectionHandler::class,
